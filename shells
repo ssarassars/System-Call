@@ -1,0 +1,8 @@
+#!/bin/bash
+# My first script
+
+echo "Project!"
+make
+sudo insmod project.ko
+dmesg
+make clean
